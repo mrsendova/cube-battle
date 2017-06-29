@@ -29,7 +29,7 @@ player = {
 
 ennemyOne = {
   shape: 'rect',
-  color: 'red',
+  color: 'black',
   w: 100,
   h: 100,
   x: 700,
@@ -49,9 +49,9 @@ manaBarPlayer = {
   shape: 'rect',
   color: 'blue',
   w: 10,
-  h: 300,
+  h: 500,
   x: 60,
-  y: 390,
+  y: 190,
 }
 
 hpBarE = {
@@ -67,9 +67,9 @@ manaBarE = {
   shape: 'rect',
   color: 'blue',
   w: 10,
-  h: 300,
+  h: 500,
   x: 940,
-  y: 390,
+  y: 190,
 }
 
 objects = [player, ennemyOne, hpBarPlayer, manaBarPlayer, hpBarE, manaBarE]

@@ -72,7 +72,16 @@ manaBarE = {
   y: 190,
 }
 
-objects = [player, ennemyOne, hpBarPlayer, manaBarPlayer, hpBarE, manaBarE]
+attackButton = {
+  shape: 'rect',
+  color: 'grey',
+  w: 250,
+  h: 75,
+  x: 375,
+  y: 562.5,
+}
+
+objects = [player, ennemyOne, hpBarPlayer, manaBarPlayer, hpBarE, manaBarE, attackButton]
 
 function draw(){
   if (game.state == 'menu') {

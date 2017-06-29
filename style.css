@@ -1,6 +1,27 @@
+
 html, body {
-  margin: auto;
-	padding: 0;
-	border: 0;
-  overflow: hidden;
+    margin: auto;
+    padding: 0;
+    border: 0;
+    overflow: hidden;
+    background-image: url("hip-square.png")
 }
+
+#lol {
+    display: table;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+#lool {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#loool {
+    margin: auto;
+    width: 1000px;
+    border: 2px solid green;
+} 
+
